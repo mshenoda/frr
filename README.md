@@ -15,18 +15,19 @@ The model architecture is inspired from Neural Collaborative Filtering paper htt
 - Pillow: for image loading
 - pandas: for csv data handling
 - scikit-learn: to provide various metric functions
+- beautifulsoup4
 
 
 ### Install
-#### Using Nvidia GPU (Cuda 11.8)
+#### Using Nvidia GPU (Cuda 11.8), Trained and Tested with CUDA
 ```
-pip3 install tqdm matplotlib Pillow scikit-learn pandas torch --extra-index-url https://download.pytorch.org/whl/cu118
+pip3 install tqdm matplotlib Pillow scikit-learn pandas beautifulsoup4 torch --extra-index-url https://download.pytorch.org/whl/cu118
 ```
 
 ### Using CPU Only: 
-### Although, you can use CPU Only, it would take longer time to train
+### Although, you can use CPU Only, it would take longer time to train!
 ```
-pip3 install tqdm matplotlib Pillow scikit-learn pandas torch 
+pip3 install tqdm matplotlib Pillow scikit-learn pandas beautifulsoup4 torch 
 ```
 
 ## Directory Structure
